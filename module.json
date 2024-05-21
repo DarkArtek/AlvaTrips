@@ -1,0 +1,16 @@
+{
+  "name": "AlvaTrips",
+  "alias": "alvatrips",
+  "description": "",
+  "keywords": [],
+  "active": 1,
+  "order": 0,
+  "providers": [
+    "Modules\\AlvaTrips\\Providers\\AppServiceProvider",
+    "Modules\\AlvaTrips\\Providers\\EventServiceProvider",
+    "Modules\\AlvaTrips\\Providers\\RouteServiceProvider"
+  ],
+  "aliases": {},
+  "files": [],
+  "requires": []
+}
