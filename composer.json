@@ -1,0 +1,28 @@
+{
+  "name": "ahdcreative/alvatrips-module",
+  "description": "description",
+  "type": "phpvms-module",
+  "authors": [
+    {
+      "name": "luca",
+      "email": "luca@ahd-creative.agency"
+    }
+  ],
+  "require": {
+    "composer/installers": "~1.0"
+  },
+  "extra": {
+    "laravel" : {
+      "providers": [
+        "Modules\\AlvaTrips\\Providers\\AppServiceProvider",
+        "Modules\\AlvaTrips\\Providers\\EventServiceProvider",
+        "Modules\\AlvaTrips\\Providers\\RouteServiceProvider"
+      ]
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "Modules\\AlvaTrips\\": "."
+    }
+  }
+}
